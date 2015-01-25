@@ -56,7 +56,8 @@ set iskeyword+=_,$,@,%,#,-
 " 字符间插入的像素行数目
 
 " NERDTree 配置
-nmap <F2> :NERDTree  <CR>
+" nmap <F2> :NERDTree  <CR>
+map <C-n> :NERDTreeToggle <CR>
 
 "请勿解开这个注释
 "autocmd VimEnter * NERDTree
