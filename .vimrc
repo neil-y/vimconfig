@@ -3,6 +3,20 @@ set fenc=utf-8
 set encoding=utf-8
 set fileencodings=utf-8,gbk,cp936,latin-1
 
+"语法高亮
+set modeline
+set ruler
+set showcmd
+set nu
+set showfulltag
+set showmode
+set smartcase
+set smartindent
+set imcmdline
+"set previewwindow
+set hlsearch
+syntax on
+
 " html格式化
 filetype plugin indent on
 
