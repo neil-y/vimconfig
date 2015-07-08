@@ -6,3 +6,7 @@ Fuzzy __file__, __buffer__, __mru__ and __tag__ finder for Vim.
 
 [1]: http://kien.github.com/ctrlp.vim
 [2]: https://github.com/kien/ctrlp.vim
+
+# ctags
+apt-get install ctags
+ctags -R
